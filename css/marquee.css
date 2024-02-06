@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0 ;
+}
+
+.marquee-main-box h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    /* font-size: 2.5rem; */
+    color: white;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.marquee-main-box{
+    /* height: 10px; */
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 6px 5px;
+    background-color: #bea150;
+}
+
+.marquee-message{
+    width: 80%;
+    padding-left: 40px;
+}
+
+.marquee-main-box .contact-mail .marquee-btn{
+    padding: 5px 13px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border-radius: 50px;
+    /* height: 50px; */
+    border: 2px solid linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);;
+    /* margin-left: 40px; */
+
+}
+
+.marquee-main-box .contact-mail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.marquee-main-box .contact-mail .marquee-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1285px){
+    .contact-mail{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+    }
+ 
+}
+
+@media only screen and (max-width: 605px){
+    .marquee-message{
+        width: 100%;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 1086px) {
+    .marquee-message{
+        width: 100%;
+        padding-right: 50px;
+    }
+}

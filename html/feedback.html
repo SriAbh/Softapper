@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/feedback.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Feedback Form</title>
+  </head>
+
+  <body>
+    <section class="body-1">
+      <form action="submit_feedback.php" method="post" name="myForm">
+      <h1>Support Us With Your Feedback</h1>
+      <div class="background">
+        <div class="part1">
+          <div class="login-detail">
+              <div class="input-field">
+                <i class="fa-solid fa-user"></i>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  name="name"
+                  id="name"
+                  class="myName"
+                  required
+                />
+                
+                <!--<i-->
+                <!--  class="green-check-1 fa-solid fa-circle-check"-->
+                <!--  style="color: green"-->
+                <!--/i>-->
+                <!--<i-->
+                <!--  class="red-check-1 fa-solid fa-circle-xmark"-->
+                <!--  style="color: red"-->
+                <!--/i>-->
+                
+                <label for="name"></label>
+              </div>
+              <div class="input-field">
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  id="email"
+                  class="myEmail"
+                  required
+                />
+                
+                <!--<i-->
+                <!--  class="green-check-2 fa-solid fa-circle-check"-->
+                <!--  style="color: green"-->
+                <!--/i>-->
+                <!--<i-->
+                <!--  class="red-check-2 fa-solid fa-circle-xmark"-->
+                <!--  style="color: red"-->
+                <!--/i>-->
+                
+                <label for="email"></label>
+              </div>
+            
+          </div>
+          <div class="girl-image">
+            <img src="../images/feedback/girl-feedback.png" alt="" />
+          </div>
+        </div>
+        <div class="part2">
+          <div class="back-contain" id="back-contain1">
+            <div class="container">
+              <span
+                >How satisfied are you with the design and layout of our
+                website?</span
+                >
+                <div class="post">
+                  <div class="text">Thanks for rating us!</div>
+                <div class="edit">EDIT</div>
+              </div>
+              <div class="star-widget">
+                <input type="radio" name="rate-1" id="rate-5-1" class="rate-5" value="Poor"/>
+                <label for="rate-5-1" class="fas fa-star"></label>
+                <input type="radio" name="rate-1" id="rate-4-1" class="rate-4" value="Bad"/>
+                <label for="rate-4-1" class="fas fa-star"></label>
+                <input type="radio" name="rate-1" id="rate-3-1" class="rate-3" value="Average"/>
+                <label for="rate-3-1" class="fas fa-star"></label>
+                <input type="radio" name="rate-1" id="rate-2-1" class="rate-2" value="Good"/>
+                <label for="rate-2-1" class="fas fa-star"></label>
+                <input type="radio" name="rate-1" id="rate-1-1" class="rate-1" value="Excellent"/>
+                <label for="rate-1-1" class="fas fa-star"></label>
+                <div class="form">
+                    <header></header>
+                    <div class="textarea">
+                      <label for="experience1"></label>
+                      <textarea
+                      name="experience1"
+                      id="experience1"
+                        cols="30"
+                        placeholder="Describe your experience.."
+                      ></textarea>
+                    </div>
+                    <div class="btn">
+                      <button type="submit">Post</button>
+                    </div>
+
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          <div class="back-contain" id="back-contain2">
+            <div class="container">
+              <span
+                >Did the project meet the agreed-upon timelines and
+                deadlines?</span
+              >
+              <div class="post">
+                <div class="text">Thanks for rating us!</div>
+                <div class="edit">EDIT</div>
+              </div>
+              <div class="star-widget">
+                <input type="radio" name="rate-2" id="rate-5-2" class="rate-5" value="Poor"/>
+                <label for="rate-5-2" class="fas fa-star"></label>
+                <input type="radio" name="rate-2" id="rate-4-2" class="rate-4" value="Bad"/>
+                <label for="rate-4-2" class="fas fa-star"></label>
+                <input type="radio" name="rate-2" id="rate-3-2" class="rate-3" value="Average"/>
+                <label for="rate-3-2" class="fas fa-star"></label>
+                <input type="radio" name="rate-2" id="rate-2-2" class="rate-2" value="Good"/>
+                <label for="rate-2-2" class="fas fa-star"></label>
+                <input type="radio" name="rate-2" id="rate-1-2" class="rate-1" value="Excellent"/>
+                <label for="rate-1-2" class="fas fa-star"></label>
+                <div class="form">
+                    <header></header>
+                    <div class="textarea">
+                      <label for="experience2"></label>
+                        <textarea
+                        name="experience2"
+                        id="experience2"
+                          cols="30"
+                          placeholder="Describe your experience.."
+                        ></textarea>
+                      </div>
+                      <div class="btn">
+                        <button type="submit">Post</button>
+                      </div>
+
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="back-contain" id="back-contain3">
+            <div class="container">
+              <span
+                >How would you rate your overall experience with our website or
+                app development services</span
+              >
+              <div class="post">
+                <div class="text">Thanks for rating us!</div>
+                <div class="edit">EDIT</div>
+              </div>
+              <div class="star-widget">
+                <input type="radio" name="rate-3" id="rate-5-3" class="rate-5" value="Poor"/>
+                <label for="rate-5-3" class="fas fa-star"></label>
+                <input type="radio" name="rate-3" id="rate-4-3" class="rate-4" value="Bad"/>
+                <label for="rate-4-3" class="fas fa-star"></label>
+                <input type="radio" name="rate-3" id="rate-3-3" class="rate-3" value="Average"/>
+                <label for="rate-3-3" class="fas fa-star"></label>
+                <input type="radio" name="rate-3" id="rate-2-3" class="rate-2" value="Good"/>
+                <label for="rate-2-3" class="fas fa-star"></label>
+                <input type="radio" name="rate-3" id="rate-1-3" class="rate-1" value="Excellent"/>
+                <label for="rate-1-3" class="fas fa-star"></label>
+                <div class="form">
+                    <header></header>
+                      <div class="textarea">
+                        <label for="experience3"></label>
+                        <textarea
+                        name="experience3"
+                        id="experience3"
+                          cols="30"
+                          placeholder="Describe your experience.."
+                        ></textarea>
+                      </div>
+                      <div class="btn">
+                        <button type="submit">Post</button>
+                      </div>
+
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="back-contain" id="back-contain4">
+            <div class="container">
+              <span
+                >What improvements, if any, what would you suggest for our
+                services?</span
+              >
+              <div class="post">
+                <div class="text">Thanks for rating us!</div>
+                <div class="edit">EDIT</div>
+              </div>
+              <div class="star-widget">
+                <input type="radio" name="rate-4" id="rate-5-4" class="rate-5" value="Poor"/>
+                <label for="rate-5-4" class="fas fa-star"></label>
+                <input type="radio" name="rate-4" id="rate-4-4" class="rate-4" value="Bad"/>
+                <label for="rate-4-4" class="fas fa-star"></label>
+                <input type="radio" name="rate-4" id="rate-3-4" class="rate-3" value="Average"/>
+                <label for="rate-3-4" class="fas fa-star"></label>
+                <input type="radio" name="rate-4" id="rate-2-4" class="rate-2" value="Good"/>
+                <label for="rate-2-4" class="fas fa-star"></label>
+                <input type="radio" name="rate-4" id="rate-1-4" class="rate-1" value="Excellent"/>
+                <label for="rate-1-4" class="fas fa-star"></label>
+                <div class="form">
+                    <header></header>
+                    <div class="textarea">
+                      <label for="experience4"></label>
+                      <textarea
+                      name="experience4"
+                      id="experience4"
+                        cols="30"
+                        placeholder="Describe your experience.."
+                      ></textarea>
+                    </div>
+                    <div class="btn">
+                      <button type="submit">Post</button>
+                    </div>
+
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="submit-form">
+            <div class="submit-button">
+              <button
+                type="submit"
+                id="mySubmit"
+                class="my-Submit"
+                style="gap: 10px"
+              >
+                Submit<i
+                  class="fa fa-regular fa-circle-check fa-beat"
+                  style="color: #20bf55"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </form>
+    </section>
+
+    <section class="body-2" id="body-2">
+      <div class="backgroung-2">
+        <div class="text-2">
+          <span class="thanks-text"> Thank You for your feedback to Us!! </span>
+          <p>Click Here to go &nbsp;<a href="../index.html">Home</a></p>
+        </div>
+      </div>
+    </section>
+
+   <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btns = document.querySelectorAll(".btn");
+        const posts = document.querySelectorAll(".post");
+        const widgets = document.querySelectorAll(".star-widget");
+        const editBtns = document.querySelectorAll(".edit");
+        const body1 = document.querySelector(".body-1");
+        const body2 = document.querySelector(".body-2");
+        const mySubmit = document.querySelector("#mySubmit");
+        const greencheck1 = document.querySelector(".green-check-1");
+        const redcheck1 = document.querySelector(".red-check-1");
+        const greencheck2 = document.querySelector(".green-check-2");
+        const redcheck2 = document.querySelector(".red-check-2");
+        let feedbackCount = 0;
+        const totalSections = btns.length;
+
+        function validateForm() {
+          var myName = document.querySelector(".myName").value;
+          var myEmail = document.querySelector(".myEmail").value;
+          var atposition = myEmail.indexOf("@");
+          var dotposition = myEmail.lastIndexOf(".");
+          var nameStatus = true;
+          var emailStatus = true;
+
+          if (myName == "" || myName.length < 3) {
+            console.log("not correct name");
+            redcheck1.style.display = "flex";
+            nameStatus = false;
+          } else {
+            console.log("correct name");
+            greencheck1.style.display = "flex";
+          }
+
+          if (
+            atposition < 3 ||
+            dotposition < atposition + 2 ||
+            dotposition + 2 >= myEmail.length
+          ) {
+            console.log("not correct email");
+            redcheck2.style.display = "flex";
+            emailStatus = false;
+          } else {
+            greencheck2.style.display = "flex";
+            console.log("correct email");
+          }
+
+          return nameStatus && emailStatus;
+        }
+
+        btns.forEach((btn, index) => {
+          btn.onclick = (event) => {
+            event.preventDefault();
+            widgets[index].style.display = "none";
+            posts[index].style.display = "block";
+            feedbackCount++;
+
+            editBtns[index].onclick = () => {
+              widgets[index].style.display = "block";
+              posts[index].style.display = "none";
+              feedbackCount--;
+              checkFeedbackCount();
+            };
+
+            checkFeedbackCount();
+          };
+        });
+
+        function checkFeedbackCount() {
+          if (feedbackCount === totalSections) {
+            enableSubmitButton();
+          } else {
+            disableSubmitButton();
+          }
+        }
+
+        function enableSubmitButton() {
+          mySubmit.onclick = () => {
+            if (validateForm()) {
+              mySubmit.disabled = false;
+              body1.style.display = "none";
+              body2.style.display = "flex";
+            } 
+            // else {
+            //   alert("Please fill the full feedback form!!");
+            // }
+          };
+        }
+
+        function disableSubmitButton() {
+          mySubmit.onclick = (event) => {
+            event.preventDefault();
+            alert("Please fill the full feedback form!!");
+          };
+        }
+      });
+    </script>
+  </body>
+</html>

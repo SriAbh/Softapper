@@ -1,0 +1,112 @@
+.btn-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #000000;
+  height: 100vh; */
+}
+.btn-container {
+    background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  /* height: 97vh;
+  width: 40%; */
+  /* border-radius: 10px; */
+  /* border: 2px solid red; */
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid blue; */
+  margin: 1px auto;
+}
+.btn-container .boxes .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 100%; */
+  width: 100%;
+  gap: 12px;
+  margin: 5px;
+    padding-left: 10px;
+  /* border: 1px solid green; */
+}
+
+.heading{
+    margin: 10px 10px;
+    font-size: 18px;
+    /* font-family: 'Montserrat'; */
+    /* font-weight: bold; */
+    color: white;
+}
+
+/* Buttons style */
+
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 12px;
+    padding: 5px 5px;
+    background-color: rgb(5, 6, 45);
+    max-width: 100%;
+    min-width: 90px;
+    height: 1.5em;
+    border-radius: 4px;
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+    color: white;
+    padding: 2px 10px;
+}
+
+.btn-container .Tech{
+display: flex;
+color: white;
+align-items: center;
+width: 100%;
+justify-content: flex-start;
+margin-bottom: 15px;
+gap: 5px;
+/* font-family: 'Montserrat'; */
+padding-left: 8px;
+font-size: 20px;
+/* font-weight: bold; */
+}
+
+.btn-container .Tech svg{
+  color: #FFD700;
+}
+
+#btn-11{background-color: #ffc107;}
+#btn-12{background-color: #dc3545;}
+#btn-13{background-color: #0d6efd;}
+#btn-14{background-color: #343a40;}
+#btn-15{background-color: #1e8e34;}
+#btn-16{background-color: #343a40;}
+#btn-17{background-color: #0a58ca;}
+#btn-18{background-color: #6610f2;}
+#btn-19{background-color: rgb(54 162 222);}
+#btn-20{background-color: #fd7e14;}
+#btn-21{background-color: #2196F3;}
+#btn-22{background-color: black;}
+#btn-23{background-color: #549000;}
+#btn-24{background-color: var(--bs-primary);}
+#btn-25{background-color: var(--bs-orange);}
+#btn-26{background-color: var(--base0D);}
+#btn-27{background-color: var(--bs-red);}
+#btn-28{background-color: var(--bs-secondary-text-emphasis);}
+#btn-29{background-color: var(--bs-code-color);}
+#btn-30{background-color: #EF6C00;}
+#btn-31{background-color: black;}

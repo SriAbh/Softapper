@@ -1,0 +1,12 @@
+{
+    "name": "acer/signup",
+    "autoload": {
+        "psr-4": {
+            "Acer\\Signup\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "google/apiclient": "2.15.0"
+    }
+}

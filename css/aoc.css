@@ -1,0 +1,36 @@
+.aoc-1 img{
+    width: 63%;
+}
+
+.aoc-main{
+    background-color: #f6f6f6;
+    padding: 50px;
+    padding-bottom: 0px;
+    /* border-bottom: 1px solid; */
+}
+
+.aoc-text-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aoc-main .aoc-text-main h4{
+    color: #FF5757;
+}
+
+.aoc-main .aoc-text-main p{
+    color: rgb(0, 0, 0);
+}
+
+.image-i .round-border-1{
+    border-radius: 210px;
+}
+
+/* .aoc-main .aoc-1 .image-i img{
+    border-radius: 50px;
+} */
+
+/* #what-code{
+    width: 100%;
+} */
